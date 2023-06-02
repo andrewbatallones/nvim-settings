@@ -1,7 +1,7 @@
 require("plugins");
-require("pluginconfig.treesitter");
+require("pluginconfig");
 
 require("andrew.options");
 require("andrew.keymaps");
 
--- print("hello");
+vim.cmd.colorscheme('tokyonight-night')
