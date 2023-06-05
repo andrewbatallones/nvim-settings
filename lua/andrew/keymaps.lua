@@ -8,3 +8,6 @@ vim.keymap.set("n", "<C-s>", ":w<cr>", { silent = true })
 -- Telescope
 vim.keymap.set("n", "<leader>f", ":Telescope find_files<cr>")
 vim.keymap.set("n", "<leader>F", ":Telescope live_grep<cr>")
+
+-- nvim-tree
+vim.keymap.set("n", "<leader>t", ":NvimTreeToggle<cr>", { silent = true })
