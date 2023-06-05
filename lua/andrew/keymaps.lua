@@ -5,6 +5,12 @@ vim.g.mapleader = " "
 vim.keymap.set("n", "-", ":Ex<cr>", { silent = true })
 vim.keymap.set("n", "<C-s>", ":w<cr>", { silent = true })
 
+-- Move windows
+vim.keymap.set("n", "<C-h>", "<C-w>h", { silent = true })
+vim.keymap.set("n", "<C-j>", "<C-w>j", { silent = true })
+vim.keymap.set("n", "<C-k>", "<C-w>k", { silent = true })
+vim.keymap.set("n", "<C-l>", "<C-w>l", { silent = true })
+
 -- Telescope
 vim.keymap.set("n", "<leader>f", ":Telescope find_files<cr>")
 vim.keymap.set("n", "<leader>F", ":Telescope live_grep<cr>")
