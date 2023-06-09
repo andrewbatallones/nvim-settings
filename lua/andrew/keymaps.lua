@@ -19,4 +19,7 @@ vim.keymap.set("n", "<leader>F", ":Telescope live_grep<cr>")
 vim.keymap.set("n", "<leader>t", ":NvimTreeToggle<cr>", { silent = true })
 
 -- lsp
-vim.keymap.set("n","<leader>e", ":lua vim.diagnostic.open_float()<cr>")
+vim.keymap.set("n", "<leader>e", ":lua vim.diagnostic.open_float()<cr>")
+
+-- null-ls
+vim.keymap.set("n", "<leader>s", ":lua vim.lsp.buf.format()<cr>")
