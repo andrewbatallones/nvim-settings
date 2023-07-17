@@ -47,6 +47,4 @@ return require("packer").startup(function(use)
   use { "nvim-telescope/telescope.nvim", tag = "0.1.1" }
 
   use "tpope/vim-fugitive"
-
-  use "nvim-tree/nvim-tree.lua"
 end)
