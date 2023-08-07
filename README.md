@@ -13,7 +13,10 @@ Using [Packer](https://github.com/wbthomason/packer.nvim)
 
 ## Initial Setup
 
-Prerequisite - Have the latest neovim installed with Packer
+### Prerequisite
+
+- Have the latest neovim installed with Packer
+- Have `build-essential` installed if using Ubuntu based Linux distro
 
 Afterwards, run this command to download the settings.
 
@@ -22,4 +25,4 @@ $ git clone https://github.com/andrewbatallones/nvim-settings.git ~/.config/nvim
 ```
 
 Since the init.lua is already loading the settings, you'll need to comment them out to do the initial `PackerInstall`.
-Afterwards, just uncomment the settings require code and you're good to go.
+Afterwards, run `:PackerInstall` within neovim to install the packages and restart neovim.
