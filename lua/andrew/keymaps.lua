@@ -5,6 +5,12 @@ vim.keymap.set("n", "-", ":Ex<cr>", { silent = true })
 vim.keymap.set("n", "<C-s>", ":w<cr>", { silent = true })
 vim.keymap.set("v", "<leader>y", "\"*y", { silent = true })
 
+-- Want to completely ignore middlemouse pasting.
+vim.keymap.set("n", "<MiddleMouse>", "<Nop>", { silent = true })
+vim.keymap.set("n", "<2-MiddleMouse>", "<Nop>", { silent = true })
+vim.keymap.set("n", "<3-MiddleMouse>", "<Nop>", { silent = true })
+vim.keymap.set("n", "<4-MiddleMouse>", "<Nop>", { silent = true })
+
 -- Move windows
 vim.keymap.set("n", "<C-h>", "<C-w>h", { silent = true })
 vim.keymap.set("n", "<C-j>", "<C-w>j", { silent = true })
