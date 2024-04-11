@@ -19,6 +19,7 @@ return require("packer").startup(function(use)
     }
 
   use "folke/tokyonight.nvim"
+  use { "catppuccin/nvim", as = "catppuccin" }
 
   use {
     "VonHeikemen/lsp-zero.nvim",

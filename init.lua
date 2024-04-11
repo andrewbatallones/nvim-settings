@@ -4,4 +4,4 @@ require("pluginconfig");
 require("andrew.options");
 require("andrew.keymaps");
 
-vim.cmd.colorscheme('tokyonight-night')
+vim.cmd.colorscheme("catppuccin-mocha")
