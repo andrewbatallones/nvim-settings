@@ -1,7 +1,7 @@
-require("plugins");
-require("pluginconfig");
-
+require("config.lazy")
+ 
 require("andrew.options");
 require("andrew.keymaps");
+ 
+-- vim.cmd.colorscheme("catppuccin-mocha")
 
-vim.cmd.colorscheme("catppuccin-mocha")
